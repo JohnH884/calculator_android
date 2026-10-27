@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pocket Calculator</string>
+    <string name="calculator_title">Calculator</string>
+    <string name="standard_mode">STANDARD · LEFT TO RIGHT</string>
+    <string name="history_button">History (%1$d)</string>
+    <string name="history_title">Calculation history</string>
+    <string name="history_empty">Completed calculations appear here.</string>
+    <string name="history_note">Last 20 calculations in this session</string>
+    <string name="clear_history">Clear history</string>
+    <string name="close">Close</string>
+    <string name="dark_mode">Dark mode</string>
+    <string name="current_input">Current input</string>
+    <string name="result">Result</string>
+    <string name="error_title">Error</string>
+    <string name="divide_by_zero">Cannot divide by zero. Tap AC or enter a new number.</string>
+    <string name="out_of_range">Result is outside the supported range. Tap AC or enter a new number.</string>
+    <string name="invalid_input">Invalid number. Tap AC or enter a new number.</string>
+    <string name="digit_limit">Maximum 16 digits per number.</string>
+    <string name="ready_hint">Enter a number to begin</string>
+    <string name="percent_hint">Percent divides the current number by 100</string>
+    <string name="clear_description">Clear calculation</string>
+    <string name="sign_description">Change sign</string>
+    <string name="percent_description">Percent</string>
+    <string name="divide_description">Divide</string>
+    <string name="multiply_description">Multiply</string>
+    <string name="subtract_description">Subtract</string>
+    <string name="add_description">Add</string>
+    <string name="delete_description">Delete last digit</string>
+    <string name="decimal_description">Decimal point</string>
+    <string name="equals_description">Equals</string>
+    <string name="history_accessibility">%1$s equals %2$s</string>
+</resources>

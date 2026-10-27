@@ -18,8 +18,7 @@ Improvements
 
 - Accessibility: Meaningful button description, large buttons, readable font sizes, scrollable content, and layouts for narrow and wide screens.
 
-Path to the source code
-PocketCalculator/app/src/main/java/com/example/pocketcalculator/
+Path to the source code PocketCalculator/app/src/main/java/com/example/pocketcalculator/
 
 check list
 - [x] App compiles and runs without crashes

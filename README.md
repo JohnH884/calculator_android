@@ -1,3 +1,7 @@
+Introduction
+
+PocketCalculator is a calculator for the Android platform developed using Kotlin and Jetpack Compose to fulfill the calculator project requirements. This calculator has capabilities such as working with multiple digits, decimals, addition, subtraction, multiplication, division, clearing, and equals operations.
+
 Improvements
 
 - Percentage: The input number is transformed into a percentage. Example: 200 × 10% = 20.

@@ -46,7 +46,7 @@ The debug APK is generated at:
 
 ```text
 app/build/outputs/apk/debug/app-debug.apk
-
+```
 The calculation logic is separated from the user interface:
 
 - `MainActivity.kt` starts the app.
@@ -57,6 +57,14 @@ The calculation logic is separated from the user interface:
 - `CalculatorStateSaver.kt` saves and restores calculator state.
 
 Path to the source code Source code: [Open the Kotlin source files](app/src/main/java/com/example/pocketcalculator/)
+
+## Screenshots
+
+![Light mode](Screenshot%202026-10-27%20011136.png)
+
+![Dark mode](Screenshot%202026-10-27%20011316.png)
+
+![Calculation history](Screenshot%202026-10-27%200114021.png)
 
 check list
 - [x] App compiles and runs without crashes

@@ -17,3 +17,10 @@ Improvements
 - Button Animation: Animates on press with size changing.
 
 - Accessibility: Meaningful button description, large buttons, readable font sizes, scrollable content, and layouts for narrow and wide screens.
+
+check list
+- [x] App compiles and runs without crashes
+- [x] Baseline features match the video app
+- [x] Two enhancements implemented and visible in the demo
+- [x] README includes overview, features, setup, screenshots, and video link
+- [x] APK uploaded; repo access granted

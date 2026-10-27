@@ -66,6 +66,8 @@ Path to the source code Source code: [Open the Kotlin source files](app/src/main
 
 ![Calculation history](Screenshot%202026-10-27%200114021.png)
 
+##video 
+https://www.youtube.com/watch?v=eqMD34Ln2wY
 check list
 - [x] App compiles and runs without crashes
 - [x] Baseline features match the video app

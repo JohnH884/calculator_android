@@ -18,6 +18,44 @@ Improvements
 
 - Accessibility: Meaningful button description, large buttons, readable font sizes, scrollable content, and layouts for narrow and wide screens.
 
+## Setup and Run
+
+Requirements:
+- Android Studio
+- JDK 17
+- Android SDK Platform 35
+- Android SDK Build-Tools 34.0.0
+- An emulator or Android device running API 24 or later
+
+Steps:
+1. Download or clone this repository.
+2. Open the folder containing `settings.gradle.kts` in Android Studio.
+3. Set the Gradle JDK to JDK 17.
+4. Allow Gradle to finish syncing.
+5. Start an emulator or connect an Android device with USB debugging enabled.
+6. Select the `app` run configuration and your device.
+7. Click Run to install and open the calculator.
+
+To build the APK, run unit tests, and check lint, open PowerShell in the project folder with `JAVA_HOME` set to your JDK 17 installation:
+
+```powershell
+.\gradlew.bat :app:assembleDebug :app:testDebugUnitTest :app:lintDebug
+```
+
+The debug APK is generated at:
+
+```text
+app/build/outputs/apk/debug/app-debug.apk
+
+The calculation logic is separated from the user interface:
+
+- `MainActivity.kt` starts the app.
+- `CalculatorEngine.kt` handles arithmetic, number entry, percentage, deletion, sign changes, and errors.
+- `CalculatorState.kt` defines the calculator state and user actions.
+- `CalculatorScreen.kt` contains reusable composables for the display, keypad, and history.
+- `CalculatorTheme.kt` defines the light and dark themes.
+- `CalculatorStateSaver.kt` saves and restores calculator state.
+
 Path to the source code Source code: [Open the Kotlin source files](app/src/main/java/com/example/pocketcalculator/)
 
 check list
